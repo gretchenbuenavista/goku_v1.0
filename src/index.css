@@ -1,0 +1,18 @@
+@import url(https://db.onlinewebfonts.com/c/0f9c349da923afea31fae4db7b8094f0?family=Gotham+Black);
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: Gotham Light;
+  src: url('Gotham Light.otf');
+}
+
+#bold_h1 {
+  font-family: 'Gotham Black', sans-serif;
+}
+
+:root {
+  font-family: 'Gotham Light', sans-serif;
+}
